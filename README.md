@@ -43,7 +43,7 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
         <img src="assets/tile-ucc.svg" alt="Unit Construction Costs database" width="100%" />
       </a>
       <p align="center"><b>🧱 Unit Construction Costs</b><br/>
-      <sub>Database of unit construction costs (UCC) for consistent replacement-cost estimates</sub></p>
+      <sub>Database of unit construction costs (UCC) for replacement-cost estimates</sub></p>
     </td>
     <td width="50%">
       <a href="https://github.com/GFDRR/urban_validation">
