@@ -50,7 +50,7 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
         <img src="assets/tile-satellite-buildings.svg" alt="Assessment of Satellite-Derived Building Datasets" width="100%" />
       </a>
       <p align="center"><b>📡 Assessment of Satellite-Derived Building Datasets</b><br/>
-      <sub>Independent validation of global building footprint and settlement layers</sub></p>
+      <sub>Validation of global building footprint and settlement layers</sub></p>
     </td>
   </tr>
 </table>
