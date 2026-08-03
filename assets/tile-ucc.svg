@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1929"/>
+      <stop offset="1" stop-color="#102a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg3)"/>
+
+  <!-- database cylinder (left) -->
+  <g stroke="#7fa8d4" stroke-width="3.5" fill="none">
+    <ellipse cx="230" cy="270" rx="110" ry="34"/>
+    <path d="M120 270 V470 a110 34 0 0 0 220 0 V270"/>
+    <path d="M120 336 a110 34 0 0 0 220 0" opacity="0.7"/>
+    <path d="M120 402 a110 34 0 0 0 220 0" opacity="0.7"/>
+  </g>
+  <g fill="#f4a72c">
+    <circle cx="316" cy="360" r="5"/>
+    <circle cx="316" cy="426" r="5"/>
+  </g>
+
+  <!-- cost bars as buildings (right) -->
+  <g>
+    <rect x="560" y="380" width="72" height="140" fill="#17505e"/>
+    <rect x="660" y="320" width="72" height="200" fill="#1e6b7c"/>
+    <rect x="760" y="260" width="72" height="260" fill="#2a8fa1"/>
+    <rect x="860" y="350" width="72" height="170" fill="#1e6b7c"/>
+    <rect x="960" y="220" width="72" height="300" fill="#3fb0bf"/>
+    <rect x="1060" y="300" width="72" height="220" fill="#2a8fa1"/>
+  </g>
+  <!-- building windows on bars -->
+  <g fill="none" stroke="#0b1929" stroke-width="2" opacity="0.8">
+    <path d="M578 400h12v12h-12z M602 400h12v12h-12z M578 432h12v12h-12z M602 432h12v12h-12z M578 464h12v12h-12z M602 464h12v12h-12z"/>
+    <path d="M678 340h12v12h-12z M702 340h12v12h-12z M678 372h12v12h-12z M702 372h12v12h-12z M678 404h12v12h-12z M702 404h12v12h-12z M678 436h12v12h-12z M702 436h12v12h-12z"/>
+    <path d="M778 280h12v12h-12z M802 280h12v12h-12z M778 312h12v12h-12z M802 312h12v12h-12z M778 344h12v12h-12z M802 344h12v12h-12z M778 376h12v12h-12z M802 376h12v12h-12z M778 408h12v12h-12z"/>
+    <path d="M878 370h12v12h-12z M902 370h12v12h-12z M878 402h12v12h-12z M902 402h12v12h-12z M878 434h12v12h-12z"/>
+    <path d="M978 240h12v12h-12z M1002 240h12v12h-12z M978 272h12v12h-12z M1002 272h12v12h-12z M978 304h12v12h-12z M1002 304h12v12h-12z M978 336h12v12h-12z M1002 336h12v12h-12z M978 368h12v12h-12z M1002 368h12v12h-12z"/>
+    <path d="M1078 320h12v12h-12z M1102 320h12v12h-12z M1078 352h12v12h-12z M1102 352h12v12h-12z M1078 384h12v12h-12z M1102 384h12v12h-12z M1078 416h12v12h-12z"/>
+  </g>
+  <!-- cost trend line -->
+  <path d="M596 360 L696 300 L796 240 L896 330 L996 200 L1096 280" fill="none" stroke="#f4a72c" stroke-width="4" stroke-dasharray="14 10"/>
+  <g fill="#f4a72c">
+    <circle cx="596" cy="360" r="7"/><circle cx="696" cy="300" r="7"/><circle cx="796" cy="240" r="7"/>
+    <circle cx="896" cy="330" r="7"/><circle cx="996" cy="200" r="7"/><circle cx="1096" cy="280" r="7"/>
+  </g>
+  <line x1="540" y1="520" x2="1152" y2="520" stroke="#7fa8d4" stroke-width="3"/>
+  <g font-size="22" fill="#a9c3dd" text-anchor="middle">
+    <text x="596" y="554">$/m²</text>
+    <text x="996" y="554">$/m²</text>
+  </g>
+
+  <!-- title -->
+  <text x="80" y="112" fill="#e8f0f8" font-size="52" font-weight="600">Unit Construction Costs</text>
+  <text x="80" y="152" fill="#7fa8d4" font-size="26">A global database of unit construction costs for replacement-cost estimation</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1929"/>
+      <stop offset="1" stop-color="#102a3e"/>
+    </linearGradient>
+    <polygon id="hx2" points="18,0 9,15.6 -9,15.6 -18,0 -9,-15.6 9,-15.6"/>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg2)"/>
+
+  <!-- graticule -->
+  <g stroke="#274b66" stroke-width="1.5" opacity="0.6">
+    <path d="M80 260 H1200 M80 380 H1200 M80 500 H1200"/>
+    <path d="M300 200 V560 M540 200 V560 M780 200 V560 M1020 200 V560"/>
+  </g>
+
+  <!-- exposure footprint: interlocking honeycomb density map -->
+  <g>
+    <use href="#hx2" x="450" y="365" fill="#17505e" opacity="0.8"/>
+    <use href="#hx2" x="450" y="399" fill="#1e6b7c" opacity="0.7"/>
+    <use href="#hx2" x="480" y="347" fill="#1e6b7c"/>
+    <use href="#hx2" x="480" y="382" fill="#2a8fa1"/>
+    <use href="#hx2" x="480" y="416" fill="#17505e" opacity="0.8"/>
+    <use href="#hx2" x="510" y="330" fill="#1e6b7c" opacity="0.9"/>
+    <use href="#hx2" x="510" y="365" fill="#2a8fa1"/>
+    <use href="#hx2" x="510" y="399" fill="#3fb0bf"/>
+    <use href="#hx2" x="510" y="434" fill="#1e6b7c" opacity="0.7"/>
+    <use href="#hx2" x="540" y="295" fill="#17505e" opacity="0.7"/>
+    <use href="#hx2" x="540" y="330" fill="#2a8fa1"/>
+    <use href="#hx2" x="540" y="365" fill="#5ecbd8"/>
+    <use href="#hx2" x="540" y="399" fill="#3fb0bf"/>
+    <use href="#hx2" x="540" y="434" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hx2" x="570" y="312" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hx2" x="570" y="347" fill="#3fb0bf"/>
+    <use href="#hx2" x="570" y="382" fill="#2a8fa1"/>
+    <use href="#hx2" x="570" y="416" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hx2" x="570" y="451" fill="#17505e" opacity="0.6"/>
+    <use href="#hx2" x="600" y="330" fill="#2a8fa1" opacity="0.9"/>
+    <use href="#hx2" x="600" y="365" fill="#3fb0bf"/>
+    <use href="#hx2" x="600" y="399" fill="#2a8fa1"/>
+    <use href="#hx2" x="600" y="434" fill="#17505e" opacity="0.7"/>
+    <use href="#hx2" x="630" y="347" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hx2" x="630" y="382" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hx2" x="630" y="416" fill="#1e6b7c" opacity="0.6"/>
+    <use href="#hx2" x="660" y="365" fill="#1e6b7c" opacity="0.7"/>
+    <use href="#hx2" x="660" y="399" fill="#17505e" opacity="0.6"/>
+  </g>
+  <!-- secondary cluster -->
+  <g>
+    <use href="#hx2" x="720" y="313" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hx2" x="720" y="347" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hx2" x="750" y="330" fill="#3fb0bf" opacity="0.9"/>
+    <use href="#hx2" x="750" y="365" fill="#1e6b7c" opacity="0.7"/>
+  </g>
+  <!-- small outlying cluster -->
+  <g>
+    <use href="#hx2" x="890" y="420" fill="#1e6b7c" opacity="0.7"/>
+    <use href="#hx2" x="920" y="437" fill="#2a8fa1" opacity="0.7"/>
+    <use href="#hx2" x="890" y="454" fill="#17505e" opacity="0.6"/>
+  </g>
+
+  <!-- two model footprints disagreeing -->
+  <ellipse cx="560" cy="380" rx="230" ry="130" fill="none" stroke="#5ecbd8" stroke-width="3.5" opacity="0.9"/>
+  <ellipse cx="640" cy="390" rx="270" ry="120" fill="none" stroke="#f4a72c" stroke-width="3" stroke-dasharray="16 12" opacity="0.9" transform="rotate(-6 640 390)"/>
+
+  <!-- legend -->
+  <g font-size="24" fill="#a9c3dd">
+    <line x1="950" y1="272" x2="1000" y2="272" stroke="#5ecbd8" stroke-width="3.5"/>
+    <text x="1012" y="280">Model A</text>
+    <line x1="950" y1="312" x2="1000" y2="312" stroke="#f4a72c" stroke-width="3" stroke-dasharray="14 10"/>
+    <text x="1012" y="320">Model B</text>
+  </g>
+
+  <!-- title -->
+  <text x="80" y="112" fill="#e8f0f8" font-size="52" font-weight="600">Exposure Analytics</text>
+  <text x="80" y="152" fill="#7fa8d4" font-size="26">Comparing global exposure datasets and models — where they agree, and where they don't</text>
+</svg>

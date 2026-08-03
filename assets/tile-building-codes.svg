@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1929"/>
+      <stop offset="1" stop-color="#102a3e"/>
+    </linearGradient>
+    <polygon id="hex" points="31,0 15.5,26.8 -15.5,26.8 -31,0 -15.5,-26.8 15.5,-26.8"/>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4a72c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f4a72c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- building outlines (left) -->
+  <g stroke="#7fa8d4" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M80 560 V300 h70 v260"/>
+    <path d="M150 560 V220 h90 v340"/>
+    <path d="M190 220 v-30 h20 v30"/>
+    <path d="M270 560 V340 h80 v220"/>
+    <path d="M380 560 V180 h100 v380"/>
+    <path d="M420 180 v-26 h22 v26"/>
+    <path d="M510 560 V390 h70 v170"/>
+  </g>
+  <g fill="none" stroke="#4f759f" stroke-width="2" opacity="0.7">
+    <path d="M175 260h12v12h-12z M205 260h12v12h-12z M175 300h12v12h-12z M205 300h12v12h-12z M175 340h12v12h-12z M205 340h12v12h-12z"/>
+    <path d="M405 220h14v14h-14z M440 220h14v14h-14z M405 265h14v14h-14z M440 265h14v14h-14z M405 310h14v14h-14z M440 310h14v14h-14z M405 355h14v14h-14z"/>
+    <path d="M290 370h12v12h-12z M320 370h12v12h-12z M290 410h12v12h-12z M320 410h12v12h-12z"/>
+  </g>
+
+  <!-- interlocking honeycomb with epicenter (right) -->
+  <circle cx="978" cy="287" r="230" fill="url(#glow)"/>
+  <g>
+    <use href="#hex" x="800" y="199" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hex" x="800" y="258" fill="#17505e"/>
+    <use href="#hex" x="800" y="317" fill="#2a8fa1" opacity="0.9"/>
+    <use href="#hex" x="800" y="376" fill="#1e6b7c" opacity="0.7"/>
+    <use href="#hex" x="851" y="169" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hex" x="851" y="228" fill="#1e6b7c"/>
+    <use href="#hex" x="851" y="287" fill="#3fb0bf"/>
+    <use href="#hex" x="851" y="346" fill="#2a8fa1"/>
+    <use href="#hex" x="851" y="405" fill="#17505e" opacity="0.7"/>
+    <use href="#hex" x="902" y="140" fill="#17505e" opacity="0.7"/>
+    <use href="#hex" x="902" y="199" fill="#2a8fa1"/>
+    <use href="#hex" x="902" y="258" fill="#3fb0bf"/>
+    <use href="#hex" x="902" y="317" fill="#2a8fa1"/>
+    <use href="#hex" x="902" y="376" fill="#1e6b7c"/>
+    <use href="#hex" x="902" y="434" fill="#17505e" opacity="0.6"/>
+    <use href="#hex" x="953" y="169" fill="#1e6b7c"/>
+    <use href="#hex" x="953" y="228" fill="#2a8fa1"/>
+    <use href="#hex" x="953" y="287" fill="#5ecbd8"/>
+    <use href="#hex" x="953" y="346" fill="#3fb0bf"/>
+    <use href="#hex" x="953" y="405" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hex" x="1004" y="140" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hex" x="1004" y="199" fill="#1e6b7c"/>
+    <use href="#hex" x="1004" y="258" fill="#2a8fa1"/>
+    <use href="#hex" x="1004" y="317" fill="#17505e"/>
+    <use href="#hex" x="1004" y="376" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hex" x="1004" y="434" fill="#1e6b7c" opacity="0.6"/>
+    <use href="#hex" x="1055" y="169" fill="#17505e" opacity="0.9"/>
+    <use href="#hex" x="1055" y="228" fill="#3fb0bf"/>
+    <use href="#hex" x="1055" y="287" fill="#2a8fa1"/>
+    <use href="#hex" x="1055" y="346" fill="#1e6b7c"/>
+    <use href="#hex" x="1055" y="405" fill="#2a8fa1" opacity="0.7"/>
+    <use href="#hex" x="1106" y="199" fill="#1e6b7c" opacity="0.8"/>
+    <use href="#hex" x="1106" y="258" fill="#17505e" opacity="0.9"/>
+    <use href="#hex" x="1106" y="317" fill="#2a8fa1" opacity="0.8"/>
+    <use href="#hex" x="1106" y="376" fill="#1e6b7c" opacity="0.6"/>
+    <use href="#hex" x="1157" y="228" fill="#2a8fa1" opacity="0.7"/>
+    <use href="#hex" x="1157" y="287" fill="#1e6b7c" opacity="0.6"/>
+    <use href="#hex" x="1157" y="346" fill="#17505e" opacity="0.5"/>
+  </g>
+  <g fill="none" stroke="#f4a72c">
+    <circle cx="978" cy="287" r="46" stroke-width="5"/>
+    <circle cx="978" cy="287" r="110" stroke-width="3" opacity="0.9"/>
+    <circle cx="978" cy="287" r="175" stroke-width="2.5" stroke-dasharray="14 12" opacity="0.8"/>
+  </g>
+
+  <!-- title -->
+  <text x="80" y="112" fill="#e8f0f8" font-size="52" font-weight="600">Building Codes CBA Explorer</text>
+  <text x="80" y="152" fill="#7fa8d4" font-size="26">Seismic cost–benefit analysis · hex tiles · SSP fans · retrofit priorities</text>
+</svg>
