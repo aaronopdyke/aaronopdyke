@@ -34,7 +34,7 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
         <img src="assets/tile-exposure.svg" alt="Exposure Analytics" width="100%" />
       </a>
       <p align="center"><b>🛰️ Exposure Analytics</b><br/>
-      <sub>A suite of analytics to compare global exposure datasets and models</sub></p>
+      <sub>A suite of analytics to compare global exposure models</sub></p>
     </td>
   </tr>
   <tr>
