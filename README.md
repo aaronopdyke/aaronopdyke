@@ -22,14 +22,14 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <a href="https://github.com/aaronopdyke/building-codes-cba-site">
         <img src="assets/tile-building-codes.svg" alt="Building Codes CBA Explorer" width="100%" />
       </a>
       <p align="center"><b>🏗️ Building Codes CBA Explorer</b><br/>
       <sub>Interactive explorer for building-code cost-benefit analysis</sub></p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <a href="https://github.com/aaronopdyke/exposure-analytics">
         <img src="assets/tile-exposure.svg" alt="Exposure Analytics" width="100%" />
       </a>
@@ -38,14 +38,14 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <a href="https://github.com/aaronopdyke/ucc-database">
         <img src="assets/tile-ucc.svg" alt="Unit Construction Costs database" width="100%" />
       </a>
       <p align="center"><b>🧱 Unit Construction Costs</b><br/>
       <sub>Database of unit construction costs (UCC)</sub></p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <a href="https://github.com/GFDRR/urban_validation">
         <img src="assets/tile-satellite-buildings.svg" alt="Assessment of Satellite-Derived Building Datasets" width="100%" />
       </a>
