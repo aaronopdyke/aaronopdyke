@@ -27,7 +27,7 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
         <img src="assets/tile-building-codes.svg" alt="Building Codes CBA Explorer" width="100%" />
       </a>
       <p align="center"><b>🏗️ Building Codes CBA Explorer</b><br/>
-      <sub>Interactive explorer for seismic building-code cost-benefit analysis — hex tiles, SSP fans, retrofit priorities</sub></p>
+      <sub>Interactive explorer for building-code cost-benefit analysis</sub></p>
     </td>
     <td width="50%">
       <a href="https://github.com/aaronopdyke/exposure-analytics">
@@ -50,7 +50,7 @@ I work on **disaster risk management** and **resilient infrastructure** — usin
         <img src="assets/tile-satellite-buildings.svg" alt="Assessment of Satellite-Derived Building Datasets" width="100%" />
       </a>
       <p align="center"><b>📡 Assessment of Satellite-Derived Building Datasets</b><br/>
-      <sub>Independent validation of global building footprint and settlement layers — precision, recall, F1, IoU</sub></p>
+      <sub>Independent validation of global building footprint and settlement layers</sub></p>
     </td>
   </tr>
 </table>
